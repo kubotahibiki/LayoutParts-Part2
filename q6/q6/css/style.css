@@ -1,1 +1,30 @@
 @charset "UTF-8";
+
+header{
+  background: #388bff;
+}
+header>div{
+  width: 1100px;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+header a{
+  text-decoration: none;
+}
+.logo{
+  padding-top: 30px;
+  font-size:24px;
+  font-weight:bold;
+  color:#f2ff7b;
+}
+nav ul{
+  display:flex;
+  justify-content: space-between;
+}
+nav a{
+  color:#ffffff;
+}
+li{
+  padding:30px;
+}

@@ -1,1 +1,27 @@
 @charset "UTF-8";
+
+.q7{
+  width:500px;
+  margin:0 auto;
+  padding:20px;
+  font-size: 16px;
+  line-height: 16px;
+  background: #fed296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+  position: relative;
+}
+.q7::before,.q7::after{
+  content:"";
+  position:absolute;
+  border:solid 25px transparent;
+  top:100%;
+  left:4.7%;
+}
+.q7::before{
+  border-top:solid 25px #8f5a0a;
+}
+.q7::after{
+  margin-top:-7px;
+  border-top:solid 25px #fed296;
+}
