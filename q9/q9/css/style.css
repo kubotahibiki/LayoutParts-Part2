@@ -91,6 +91,7 @@ li{
   width: 300px;
   padding: 20px;
   border: 1px solid #000000;
+  transition:0.5s;
 }
 li:not(:first-child){
   border-left: none;
